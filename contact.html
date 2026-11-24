@@ -3,45 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACT US</title>
+    <title>Contact Us - Skies Star Advice Committee</title>
+    <link rel="stylesheet" href="homestyle.css">
 </head>
 <body>
+
     <header>
-        <h2>Skies Star</h2>
+        <h1>Skies Star - Teyvat Advice Committee</h1>
         <nav>
-            <a href="index.html">Home</a> |
+            <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+
     <main>
-        <h1>Contact Us</h1>
-        <p>Need advice? Let's sit down and chat. Fill out the forms below to book an appointent with us.</p>
-        <form action="#" method="POST">
-            <label for="name">Full Name:</label><br>
-            <input type="text" id="name" name="name" plceholder="Enter Your Name" required><br><br>
+        <section class="card">
+            <h2>Contact Us</h2>
+            <p style="margin-bottom: 1rem;">Need advice? Let's sit down and chat. Fill out the form below to book an appointment with us.</p>
 
-            <label for="email">Email Address</label><br>
-            <input type="text" id="email" name="email" placeholder="Enter Your Email" required><br><br>
+            <form action="#" method="POST">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required style="width: 100%; padding: 0.6rem; margin: 0.4rem 0 1rem; border: 1px solid #cbd5e1; border-radius: 5px;">
 
-            <label for="message">Appointment Message:</label><br>
-            <textarea id="message" name="message" rows="3" cols="20" placeholder="Book Here..." required></textarea><br><br>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required style="width: 100%; padding: 0.6rem; margin: 0.4rem 0 1rem; border: 1px solid #cbd5e1; border-radius: 5px;">
 
-            <button type="submit">Book Appointment</button>
-            <button type="reset">Clear</button>
-        </form>
-        <hr>
+                <label for="message">Appointment Message:</label><br>
+                <textarea id="message" name="message" rows="4" placeholder="Book Here..." required style="width: 100%; padding: 0.6rem; margin: 0.4rem 0 0.5rem; border: 1px solid #cbd5e1; border-radius: 5px;"></textarea>
 
-        <h2>Other Ways to Reach Us!</h2>
-        <p><strong>Email:</strong> skiesproject@gmail.com</p>
-        <p><strong>Phone:</strong> 6700-jabi-delivery</p>
-        <p><strong>Location:</strong> Uptown Cagayan de Oro</p>
+                <button type="submit" class="btn" style="border: none; cursor: pointer;">Book Appointment</button>
+                <button type="reset" class="btn" style="border: none; cursor: pointer; background-color: #64748b; margin-left: 0.5rem;">Clear</button>
+            </form>
+        </section>
 
+        <section class="card">
+            <h2>Other Ways to Reach Us!</h2>
+            <p><strong>Email:</strong> skiesproject@gmail.com</p>
+            <p><strong>Phone:</strong> 6700-jabi-delivery</p>
+            <p><strong>Location:</strong> Uptown Cagayan de Oro</p>
+        </section>
     </main>
 
     <footer>
-        <hr>
         <p>&copy; 2026 Skies Star. All rights reserved char</p>
     </footer>
+
 </body>
 </html>
